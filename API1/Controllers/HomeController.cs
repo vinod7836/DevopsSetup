@@ -23,5 +23,12 @@ namespace API1.Controllers
         {
             return Ok($"Hello {name}");
         }
+
+        [HttpGet]
+        [Route("age/{age}")]
+        public IActionResult GetAge(string age)
+        {
+            return Ok($"Hello, your age is {age}");
+        }
     }
 }
