@@ -17,5 +17,11 @@ namespace API1.Controllers
         {
             return Ok(Request.Host.Host);
         }
+        [HttpGet]
+        [Route("name/{name}")]
+        public IActionResult Name(string name)
+        {
+            return Ok($"Hello {name}");
+        }
     }
 }
