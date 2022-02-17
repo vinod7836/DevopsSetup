@@ -19,4 +19,4 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/vinod7836/DevOps
             azure-pipeline-name: 'DevOps-CI-Docker'
-            azure-devops-token: ${{secrets.aordnyrvrajdky2jx45hd4ci6usy3uddfbwkpqtkykktwnkphqra}}
+            azure-devops-token: ${{azure-devops-token.aordnyrvrajdky2jx45hd4ci6usy3uddfbwkpqtkykktwnkphqra}}
